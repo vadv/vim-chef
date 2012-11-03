@@ -4,17 +4,15 @@ vim-chef
 Vim plugins for chef (syntax highliting and autocomplete snipmate)
 
 
-Install using `Vundle`
+Install with dependencies using `Vundle`
 ===============
-Install dependencies:
 
-`Bundle "MarcWeber/vim-addon-mw-utils"
-`
-`Bundle "tomtom/tlib_vim"
-`
-`Bundle "garbas/vim-snipmate"
-`
-`Bundle "vadv/vim-chef"`
+```
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "vadv/vim-chef"`
+```
 
 Next:
 `:BundleInstall`
