@@ -4,11 +4,19 @@ syn keyword chefBlock remote_file contained
 syn keyword chefBlock template contained
 syn keyword chefBlock directory contained
 syn keyword chefBlock cookbook_file contained
-
+syn keyword chefBlock user contained
 
 syn keyword chefIdent owner
+syn keyword chefIdent comment 
+syn keyword chefIdent uid
+syn keyword chefIdent gid
+syn keyword chefIdent home
+syn keyword chefIdent shell
+syn keyword chefIdent password
 syn keyword chefIdent mode
 syn keyword chefIdent source
+syn keyword chefIdent version
+syn keyword chefIdent ruby_string
 syn keyword chefIdent ignore_failure
 syn keyword chefIdent provider
 syn keyword chefIdent supports
@@ -32,7 +40,6 @@ syn keyword chefIdent git
 syn keyword chefIdent bash
 syn keyword chefIdent python
 syn keyword chefIdent service
-syn keyword chefIdent user
 
 syn keyword chefImportant recursive
 syn keyword chefImportant notifies
@@ -42,6 +49,8 @@ syn keyword chefImportant only_if
 
 syn keyword chefDirective include_recipe
 syn keyword chefDirective recipe
+
+syn keyword chefDirective node
 
 hi link chefIdent   Identifier
 hi link chefBlock Statement
