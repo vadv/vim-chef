@@ -195,6 +195,14 @@ snippet pac
 		version "${3:1.0-1}"
 	end
 
+snippet cookbook_file
+	cookbook_file "${1:/tmp/file}" do
+		owner "${2:root}"
+		group "${3:root}"
+		mode "${4:0644}"
+		source "${5:my-filename}"
+	end
+
 snippet remote_file
 	remote_file "${1:/tmp/remote_file}" do
 		owner "${2:root}"
