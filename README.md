@@ -11,7 +11,7 @@ Install with dependencies using `Vundle`
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
-Bundle "vadv/vim-chef"`
+Bundle "vadv/vim-chef"
 ```
 
 Next:
