@@ -1,0 +1,11 @@
+{
+  "name" : "vim-chef",
+  "version" : "dev",
+  "author" : "Vasilev Dmitry",
+  "maintainer" : "Vasiliev Dmitry",
+  "repository" : {"type": "git", "url": "git://github.com/vadv/vim-chef.git"},
+  "dependencies" : {
+    "vim-snipmate": {}
+  },
+  "description" : "vim snipmate for chef"
+}
