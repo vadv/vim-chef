@@ -212,6 +212,15 @@ snippet remote_file
 		checksum "${6:sha256checksum}"
 	end
 
+snippet remote_directory
+	remote_directory "${1:/tmp/remote_directory_name}" do
+		owner "${2:root}"
+		group "${3:root}"
+		mode "${4:0755}"
+		source "${5:directory_name}"
+		action :create
+	end
+
 snippet role
 	name "${1:role name}"
 	description "${2:Description for the role}"
