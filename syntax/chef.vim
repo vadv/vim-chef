@@ -1,5 +1,6 @@
 
 syn keyword chefBlock file contained
+syn keyword chefBlock remote_directory contained
 syn keyword chefBlock remote_file contained
 syn keyword chefBlock template contained
 syn keyword chefBlock directory contained
